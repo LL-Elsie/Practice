@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 取消元素的列表项 */
+ul,ol,li {
+    list-style: none;
+}
+
+.box {
+    border-left: 20px solid transparent;
+}
+
+.header {
+    width: 380px;
+    height: 46px;
+    /* background-color: orange; */
+    /* 上下边框 */
+    border-top: 4px solid #999999;
+    border-bottom: 1px solid #999999;
+    line-height: 46px;
+}
+
+.header>.sp1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #254282;
+}
+
+.header>.sp2 {
+    font-size: 10px;
+    color: #999999;
+}
+
+/* 对ul进行修饰 */
+ul {
+    width: 380px;
+    height: 180px;
+    /* background-color: orange; */
+    /* 设置字体大小 */
+    font-size: 14px;
+    line-height: 28px;
+    /* 添加一个上边的外边距 */margin-top: 10px;
+}
+
+ul>.first {
+    font-size: 16px;
+    font-weight: bold;
+    background-image: url(../img/red.png);
+
+}
+
+/* 给每一个li添加背景图片 */
+ul>li {
+    background-image: url(../img/blue.png);
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    /* 首行缩进 */
+    text-indent: 10px;
+}
+
+/* 增加功能 */
+ul>li:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: skyblue;
+}
+

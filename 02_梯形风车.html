@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .bigbox {
+            width: 400px;
+            height: 400px;
+        }
+
+        .bigbox>div {
+            width: 0;
+            height: 0;
+            float: left;
+        }
+
+        .bigbox>.box1 {
+            border-top: 0px solid transparent;            
+            border-right: 100px solid orange;
+            border-bottom: 100px solid orange;
+            border-left: 100px solid transparent;
+            margin-top: 100px;
+        }
+
+        .bigbox>.box2 {
+            border-top: 100px solid transparent;            
+            border-right: 0px solid transparent;
+            border-bottom: 100px solid blue;
+            border-left: 100px solid blue;
+            margin-right: 100px;
+        }
+
+        .bigbox>.box3 {
+            border-top: 100px solid yellow;            
+            border-right: 100px solid yellow;
+            border-bottom: 100px solid transparent;
+            border-left: 0px solid transparent;
+            margin-left: 100px;
+        }
+        .bigbox>.box4 {
+            border-top: 100px solid greenyellow;            
+            border-right: 100px solid transparent;
+            border-bottom: 0px solid transparent;
+            border-left: 100px solid greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="bigbox">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+    </div>
+</body>
+</html>

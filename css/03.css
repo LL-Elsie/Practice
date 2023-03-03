@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 上半部分-标题 */
+.title {
+    width: 860px;
+    height: 60px;
+    margin: 0 auto;
+    border-bottom: 1px solid gray;
+}
+.title>.right {
+    float: right;
+    margin-top: 27px;
+    color: #c28f7a;
+
+}
+.title>.left {
+    float: left;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+/* 下半部分-内容区域 */
+.info {
+    width: 860px;
+    height: 242px;
+    margin: 0 auto;
+}
+
+.info>div {
+    width: 205px;
+    height: 230px;
+    background-color: #eff3f6;
+    float: left;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.info>div>.box4 {
+    margin-right: 0px;
+}
+
+img {
+    display: block;
+}
+.info>div>div {
+    margin: 14px;
+    color: #97989a;
+    font-size: 12px;
+}

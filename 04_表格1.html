@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        table {
+            border-spacing: 0px;
+        }
+        thead {
+            background-color: orange;
+        }
+        tfoot {
+            background-color: yellow;
+        }
+        table tr>td {
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <table width="300" height="200" border="2">
+        <thead>
+            <tr>
+                <th colspan="2">产品</th>
+                <th colspan="2">描述信息</th>
+            </tr>
+            <tr>
+                <th>公司</th>
+                <th>编号</th>
+                <th>用途</th>
+                <th>价格</th>
+            </tr>
+        </thead>
+        <tr>
+            <td rowspan="2">大众</td>
+            <td>DZ-1</td>
+            <td>中端客户</td>
+            <td>100.00</td>
+        </tr>
+        <tr>
+            <td>DZ-1</td>
+            <td>低端客户</td>
+            <td>50.00</td>
+        </tr>
+        <tr>
+            <td rowspan="2">前沿</td>
+            <td>JY-1</td>
+            <td>高端客户</td>
+            <td>200.00</td>
+        </tr>
+        <tr>
+            <td>JY-1</td>
+            <td>中端客户</td>
+            <td>100.00</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td>2</td>
+                <td>4</td>
+                <td>3</td>
+                <td>450</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

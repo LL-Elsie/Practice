@@ -1,6 +1,6 @@
 @charset "utf-8";
 body {
-	background-image: url(../img/logo1.jpg);
+	background-image: url(../img/logo2.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -51,4 +51,11 @@ a:active {
 	border-left-color: #200F15;
 	padding-left: 10px;
 	color: #AD5A5A;
+}
+
+
+/* 个人简介 */
+.p1 {
+	font-size: 20px;
+	font-weight: bold;
 }

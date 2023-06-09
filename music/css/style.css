@@ -1,0 +1,156 @@
+body {
+    margin: 0px;
+    background-color: #ccc;
+}
+
+#boxDiv {
+    width: 375 px;
+    height: 568 px;
+    margin: 10 px auto;
+    position: relative;
+}
+
+
+#contentDiv {
+    width: 375 px;
+    height: 460 px;
+    background-image: url(../img/audio/play_bg@2x.png);
+    overflow: hidden;
+}
+
+
+#lrcDiv {
+    margin-top: 260 px;
+}
+
+
+
+#lrcDiv span {
+    display: block;
+    line-height: 40 px;
+    text-align: center;
+    color: white;
+    font-size: 20 px;
+}
+
+
+
+#bgTopSpan {
+    position: absolute;
+    display: block;
+    width: 375 px;
+    height: 30 px;
+    top: px;
+    background-image: url(../img/audio/play_top_shadow@2x.png);
+
+}
+
+
+
+#bgBottomSpan {
+    top: 430 px;
+    position: absolute;
+    background-image: url(../img/audio/play_bottom_shadow@2x.png);
+    display: block;
+    width: 375 px;
+    height: 30 px;
+}
+
+
+
+#controlDiv {
+    width: 375 px;
+    height: 180 px;
+    position: relative;
+    background-color: white;
+}
+
+
+
+#progressDiv {
+    background-color: red;
+    height: 1.5 px;
+    width: px;
+}
+
+
+
+#pointerImg {
+    width: 18 px;
+    height: 18 px;
+    position: absolute;
+    top: -8.5 px;
+    left: -3 px;
+}
+
+
+
+#playTimeSpan {
+    display: block;
+    position: absolute;
+    font-size: 14 px;
+    width: 35 px;
+    top: 5 px;
+    left: 5 px;
+}
+
+
+
+#totalTimeSpan {
+    display: block;
+    position: absolute;
+    font-size: 14 px;
+    width: 35 px;
+    top: 5 px;
+    left: 335 px;
+}
+
+
+
+#titleSpan {
+    display: block;
+    position: absolute;
+    height: 30 px;
+    width: 295 px;
+    font-size: 20 px;
+    text-align: center;
+    left: 40 px;
+    top: 5 px;
+}
+
+
+
+#buttonDiv {
+    margin-top: 40 px;
+    position: relative;
+}
+
+
+
+#prevImg {
+    width: 40 px;
+    height: 40 px;
+    position: absolute;
+    top: 20 px;
+    left: 60 px;
+}
+
+
+
+#playOrPauseImg {
+    width: 70 px;
+    height: 70 px;
+    position: absolute;
+    top: 5 px;
+    left: 152 px;
+}
+
+
+
+#nextImg {
+    width: 40 px;
+    height: 40 px;
+    position: absolute;
+    top: 20 px;
+    left: 275 px;
+}

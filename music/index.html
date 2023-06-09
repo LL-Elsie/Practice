@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+    <!-- 播放器 -->
+    <audio id="song" autoplay="autoplay"></audio>
+    <!-- 整体结构 -->
+    <div id="boxDiv">
+        <!-- 歌词展示区域 -->
+        <div id="contentDiv">
+            <!-- 歌词显示 -->
+            <div id="lrcDiv">
+                </ div>
+                <!-- 上部阴影 -->
+                <span id="bgTopSpan"></span>
+                <!-- 下部阴影 -->
+                <span id="bgBottomSpan"></span>
+            </div>
+            <!-- 控制区域 -->
+            <div id="controlDiv">
+                <!-- 进度条 -->
+                <div id="progressDiv"></div>
+                <!-- 进度条圆点 -->
+                <img id="pointerImg" src="img/audio/progress_pointer@2x.png"/>
+                <!-- 播放时间 -->
+                <span id="playTimeSpan">00:00</span>
+                <!-- 歌曲标题 -->
+                <span id="titleSpan"></span>
+                <!-- 总时间 -->
+                <span id="totalTimeSpan">00:00</span>
+                <!-- 按钮区域 -->
+                <div id="buttonDiv">
+                    <!-- 上一首按钮 -->
+                    <img id="prevImg" src="img/audio/play_above_song@2x.png"/>
+                    <!-- 播放暂停按钮 -->
+                    <img id="playOrPauseImg" src="img/audio/play@2x.png"/>
+                    <!-- 下一首按钮 -->
+                    <img id="nextImg" src="img/audio/play_next_song@2x.png"/>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
